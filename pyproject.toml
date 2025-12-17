@@ -31,6 +31,12 @@ dependencies = [
     "Exscript"
 ]
 
+[project.optional-dependencies]
+asm = [
+    "capstone",
+    "keystone-engine"
+]
+
 [project.urls]
 Repository = "https://github.com/bkerler/edl.git"
 Issues = "https://github.com/bkerler/edl/issues"
