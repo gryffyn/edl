@@ -404,6 +404,10 @@ class main(metaclass=LogBase):
                     return self.exit(1)
 
 
-if __name__ == '__main__':
+def run():
     base = main(args, __name__)
     base.run()
+
+
+if __name__ == '__main__':
+    run()
